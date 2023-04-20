@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(133, 133, 185);
+    min-height: 50vh;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    
+}
+
+.img1{
+    text-align: center;
+    opacity: 0.20;
+}
+
+.botão1{
+    
+    width: 133px;
+    height: 36px;
+    line-height: 3;
+    background-color: #3836c2;
+    text-align:center
+}
+.botão2{
+    
+    width: 133px;
+    height: 36px;
+    line-height: 3;
+    background-color: #3836c2;
+    
+}
+.botão3{
+    
+    width: 133px;
+    height: 36px;
+    line-height: 3;
+    background-color: #3836c2;
+    text-align:left;
+}
