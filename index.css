@@ -10,7 +10,7 @@ h1{
 }
 
 .img1{
-    text-align: center;
+    text-align: left;
     opacity: 0.20;
 }
 
@@ -21,6 +21,10 @@ h1{
     line-height: 3;
     background-color: #3836c2;
     text-align:center
+    cursor
+}
+.botão1:hover{
+    background: #121068;
 }
 .botão2{
     
@@ -28,7 +32,12 @@ h1{
     height: 36px;
     line-height: 3;
     background-color: #3836c2;
+    cursor: pointer;
     
+}
+
+.botão2:hover{
+     background: #121068;
 }
 .botão3{
     
@@ -36,5 +45,9 @@ h1{
     height: 36px;
     line-height: 3;
     background-color: #3836c2;
-    text-align:left;
+    text-align:center;
+    cursor: pointer;
+}
+.botão3:hover{
+     background: #121068;
 }
