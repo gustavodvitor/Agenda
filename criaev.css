@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(133, 133, 185);
+    min-height: 50vh;
+    text-align:center;
+    background-image: url(img/agenda\ \(1\)\ \(2\).png);
+    
+}
+
+
+.inputs{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    text-align: center;
+    opacity: 0.20;
+    top: 100;
+    left: 100;
+}
+
+.botenv{
+    color: white;
+    width: 133px;
+    height: 36px;
+    line-height: 3;
+    background-color: #3836c2;
+    cursor: pointer;
+    transition: 0.50s;
+    text-align: center;
+    font-size: 12px;
+}
+.botenv:hover{
+    background: #2099c8;
+}
