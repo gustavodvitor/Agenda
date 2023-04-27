@@ -1,53 +1,66 @@
 body{
     background-color: rgb(133, 133, 185);
     min-height: 50vh;
+    background-image: url(img/agenda\ \(1\)\ \(2\).png);
+    background-repeat: repeat-x;
+    text-align: center;
+    background-position: 0px 250px;
+    
+    
 }
 
 h1{
-    color: white;
+    color:white;
     text-align: center;
+    
     
 }
 
 .img1{
-    text-align: left;
+    text-align: center;
     opacity: 0.20;
 }
 
 .botão1{
-    
-    width: 133px;
-    height: 36px;
-    line-height: 3;
-    background-color: #3836c2;
-    text-align:center
-    cursor
-}
-.botão1:hover{
-    background: #121068;
-}
-.botão2{
-    
-    width: 133px;
-    height: 36px;
-    line-height: 3;
-    background-color: #3836c2;
-    cursor: pointer;
-    
-}
-
-.botão2:hover{
-     background: #121068;
-}
-.botão3{
-    
+    color: white;
     width: 133px;
     height: 36px;
     line-height: 3;
     background-color: #3836c2;
     text-align:center;
+    cursor:pointer;
+    transition: 0.50s;
+    margin: 1 15px;
+}
+.botão1:hover{
+    background: #2099c8;
+}
+.botão2{
+    
+    color: white;
+    width: 133px;
+    height: 36px;
+    line-height: 3;
+    background-color: #3836c2;
     cursor: pointer;
+    transition: 0.50s;
+    text-align: center;
+}
+
+.botão2:hover{
+     background: #2099c8;
+}
+.botão3{
+    
+    color: white;
+    text-align:center;
+    width: 133px;
+    height: 36px;
+    line-height: 3;
+    background-color: #3836c2;
+    cursor: pointer;
+    transition: 0.50s;
 }
 .botão3:hover{
-     background: #121068;
+     background: #2099c8;
 }

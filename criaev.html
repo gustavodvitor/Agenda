@@ -6,24 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="criaev.css">
+    <script src="agenda.js"></script>
+
+    
 </head>
 <body>
    
    
     <h1>CRIAR EVENTO</h1>
     
-    <div class="inputs">
-        <h3>Data <br><input type="Data"></h3>
-        <h3>Hora <br> <input type="Hora"></h3>
-        <h3>Duração <br> <input type="Duração"></h3>
-        <h3>Localização <br><input type="Localização"></h3>
-        <h3>Titulo <br><input type="Titulo"></h3>
-        <h3>Descrição <br><input type="Descrição"></h3>
-    </div>
+    
+        <h3>Data <br><input class="bot1" type="date" id="meuInput"> </h3>
+        <h3>Hora <br> <input class="bot2" type="time" id="meuInput"></h3>
+        <h3>Duração em horas <br> <input class="bot3" type="number" min="1" max="24" id="meuInput"></h3>
+        <h3>Localização <br><input class="bot4" type="text" id="meuInput"></h3>
+        <h3>Titulo <br><input class="bot5" type="text" id="meuInput"></h3>
+        <h3>Descrição <br><input class="bot6" type="text" id="meuInput"></h3>
+        <br>
+    
+    <button class="botenv" onclick="pegarValor()">Enviar</button>
 
-<button class="botenv">Enviar</button>
 
-
+<a href="index.html"><button class="botenv">Voltar</button></a>
 
 </body>
+
 </html>
