@@ -1,4 +1,3 @@
-function pegarValor() {
-  var valorInput = document.querySelector("#meuInput").value;
-  window.alert("O valor do input é: " + valorInput);
-}
+
+  const valorInput = document.querySelector("#data");
+console.log(valorInput.value)
